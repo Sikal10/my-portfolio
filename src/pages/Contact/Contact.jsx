@@ -24,8 +24,6 @@ const Contact = () => {
     const sendMessage = async (e) => {
         e.preventDefault();
         const senderName = formRef.current.user_name.value;
-        console.log(senderName)
-        console.log(process.env.SERVICE_ID)
         try {
             const response = await emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formRef.current, process.env.REACT_APP_USER_ID);
             if (response.text === "OK") {
