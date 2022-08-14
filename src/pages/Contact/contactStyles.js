@@ -131,6 +131,8 @@ export const Button = styled(motion.button)`
   border: none;
   font-size: 18px;
   cursor: pointer;
+  color: black;
+  font-weight: 500;
   
   @media (max-width: 600px) {
     width: 47%;

@@ -110,6 +110,6 @@ export const Image = styled(motion.img)`
   width: 50%;
 
   @media (max-width: 600px) {
-
+    padding-top: 45px;
   }
 `;
