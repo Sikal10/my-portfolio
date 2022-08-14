@@ -46,7 +46,7 @@ const Contact = () => {
                 <ContactBox>
                     <motion.h3 animate={{ y: [-400, 0] }} transition={{ type: "ease", duration: 1, delay: .1 }}>Get<span>In</span>Touch</motion.h3>
 
-                    <motion.p initial={{opacity: 0}} animate={{opacity: 1}} transition={{ type: "spring", duration: 2, delay: .4 }}>Please leave us a message by filling the form below.</motion.p>
+                    <motion.p initial={{opacity: 0}} animate={{opacity: 1}} transition={{ type: "spring", duration: 2, delay: .4 }}>Please leave a message by filling the form below.</motion.p>
 
                     <ContactFormWrapper>
                         <ContactForm ref={formRef} onSubmit={sendMessage}>
