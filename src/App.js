@@ -8,12 +8,14 @@ import Contact from "./pages/Contact/Contact";
 import Skills from "./pages/Skills/Skills";
 import Works from "./pages/Works/Works";
 import {AnimatePresence} from "framer-motion";
+import {ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
     return (
         <ThemeProvider theme={lightTheme}>
             <GlobalStyles/>
-
+            <ToastContainer />
             <AnimatePresence>
                 <Routes>
                     <Route path={"/"} element={<Home/>}/>
