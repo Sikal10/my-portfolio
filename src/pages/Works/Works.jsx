@@ -16,7 +16,7 @@ const Works = () => {
 
             <WorksWrapper>
                 {works.map((work, index) => <Work initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1, delay: index / 2}} key={work.id}>
-                    <Image src={work.img}/>
+                    <Image loading={"lazy"} src={work.img}/>
                     <p>{work.details}</p>
                     <Line />
                     <ButtonContainer>

@@ -18,7 +18,7 @@ const SocialIcons = ({isClicked, isDarkPage, isProjectPage, isSkillsPage, isAbou
             </motion.div>
 
             <motion.div initial={{scale: 0}} animate={{scale:[0,1,1.5,1]}} transition={{type:'spring', duration:1, delay:1.4}}>
-                <a target={"_blank"} href={"https://www.codesandbox.io/u/sikal_sikal"}>
+                <a target={"_blank"} href={"https://www.codesandbox.io/u/Sikal10"}>
                 <FaCodepen />
                 </a>
             </motion.div>
