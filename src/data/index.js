@@ -8,6 +8,7 @@ import Blog from "../assets/Images/devblog.png";
 import Krypto from "../assets/Images/kryptoverse.png";
 import Amazon from "../assets/Images/amazon.png";
 import Hulu from "../assets/Images/hulu.png";
+import Twitter from "../assets/Images/twitter-clone.png";
 
 export const works = [
     {
@@ -25,18 +26,25 @@ export const works = [
         details: "A blockchain application built with ReactJS and Solidity."
     },
     {
-        id: 3,
-        img: Portfolio,
-        link: "https://portfolio-sikal10.vercel.app/",
-        githubLink: "https://github.com/Sikal10/portfolio",
-        details: "Sikal's portfolio built with React and Tailwindcss. Powered by emailjs "
-    },
-    {
         id: 4,
         img: Nosh,
         link: "https://nosh-clone.vercel.app/",
         githubLink: "https://github.com/Sikal10/nosh-clone",
         details: "A clone of Nosh built with React and TailwindCSS."
+    },
+    {
+        id: 11,
+        img: Twitter,
+        link: "https://twitter-clone-nu-ten.vercel.app/",
+        githubLink: "https://github.com/Sikal10/twitter-clone",
+        details: "A mini clone of Twitter built with NextJS and Typescript, powered by Sanity CMS."
+    },
+    {
+        id: 3,
+        img: Portfolio,
+        link: "https://portfolio-sikal10.vercel.app/",
+        githubLink: "https://github.com/Sikal10/portfolio",
+        details: "Sikal's portfolio built with React and Tailwindcss. Powered by emailjs "
     },
     {
         id: 5,
